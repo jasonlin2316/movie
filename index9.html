@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="loading"></div>
+    <div id="main-container">
+        <button id="close"><img src="assets/Close-icon-32.png" id="pic1"></button>
+        <navbar id="navbar">
+            <ul>
+                <img src="assets/movie1.png" id="pic">
+                <li><a id="a1" href="#">Movies List</a></li>
+                <li>
+                    <a id="a2" href="#">Liked List</a><span id="count_like"></span>
+                </li>
+                <li style="float:right"><a id="a3" href="#">CONFIG</a></li>
+            </ul>
+            <hr/>
+        </navbar>
+        <h1 id="title">The Most Popular Movies</h1>
+        <div id="pagination">
+            <button id="prev" disabled>No More</button>
+            <p id="pageNumber"></p>
+            <button id="next">Next</button>
+        </div>
+        <div id="movies">
+        </div>
+
+        <h1 id="like_list_head">Liked List</h1>
+        <div id="like_list">
+        </div>
+        <div id="config">
+        </div>
+
+        <script src="js/data.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="js/js3.js"></script>
+        <script src="js/drag_and_drop.js"></script>
+
+</body>
+
+</html>
